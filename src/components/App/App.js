@@ -49,13 +49,13 @@ function App() {
 
   const resetAllFilds = () => {
     // window.location.reload();
-    // setYear(LIST_YEARS[0].value);
-    // setYearComment(LIST_YEARS[0].comment);
-    // setRegion(LIST_REGIONS[0].value);
-    // setRealtyType('');
+    setYear(LIST_YEARS[0].value);
+    setYearComment(LIST_YEARS[0].comment);
+    setRegion(LIST_REGIONS[0].value);
+    setRealtyType('');
     setResult([])
-    // setMarketType('');
-    // setIntervalType('');
+    setMarketType('');
+    setIntervalType('');
     // setIsResultToShow(false)
 
   };
